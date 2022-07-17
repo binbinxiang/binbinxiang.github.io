@@ -3,6 +3,7 @@ author: binbinxiang # name of site's author
 email: 2799343834@qq.com # email of site's author
 url: https://binbinxiang.github.io
 #url: https://riggraz.dev # root address of the site
+baseurl: ""
 #baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   欢迎来到我的博客
@@ -16,7 +17,7 @@ remote_theme: riggraz/no-style-please
 #theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
